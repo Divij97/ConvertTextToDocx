@@ -21,13 +21,3 @@ def execute():
 
     with open("writable_file.txt", "+w", encoding="utf-8") as out_f:
         out_f.write(curr_paragraph)
-
-
-
-
-
-    
-    
-    
-    
-    
