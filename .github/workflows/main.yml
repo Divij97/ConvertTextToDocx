@@ -13,6 +13,8 @@ jobs:
         run: echo "test=world" >> "$GITHUB_OUTPUT"
       - id: step3
         run: echo $GITHUB_OUTPUT
+      - id: step4
+        run: ls -l $GITHUB_OUTPUT
   job2:
     runs-on: ubuntu-latest
     needs: job1
